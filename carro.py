@@ -1,5 +1,3 @@
-# Manuela Bertanha | TIA 32152851
-
 import pygame
 
 SCREEN_SIZE = (680, 380)
@@ -46,8 +44,8 @@ while jogoAtivo:
         screen.blit(carro, (x,y))
         vel = -vel
     if (x > 680):
-        #screen.fill((128,128,255))
-        #pygame.display.flip()  # Preenche a tela com o Game Over
+        screen.fill((128,128,255))
+        pygame.display.flip() 
         screen.blit(textoFinal, (95,152))
         jogoAtivo = False
     pygame.display.update()
