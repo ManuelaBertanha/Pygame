@@ -1,5 +1,3 @@
-# Manuela Bertanha | TIA 32152851
-
 import pygame
 
 SCREEN_SIZE = (680, 380)
