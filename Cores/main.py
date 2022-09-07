@@ -1,5 +1,3 @@
-# Manuela Bertanha | TIA 32152851
-
 import pygame
 import random
 
